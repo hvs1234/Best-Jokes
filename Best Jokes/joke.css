@@ -1,0 +1,22 @@
+body{background: linear-gradient(to right,rgb(7, 122, 122),rgb(13, 177, 177),rgb(10, 228, 228)); font-family: 'Dosis' , sans-serif}
+
+.container
+{
+    display: flex; flex-direction: column; text-align: center; margin: 100px 380px; border: 1px solid transparent; height: 600px; align-items: center; justify-content: center; background-color: lightgreen; box-shadow:20px 20px 2px rgb(68, 61, 61) ; border-radius: 40px;
+}
+
+.container h3 
+{
+    font-size: 4em; color: rgb(134, 5, 82); letter-spacing: 3px;
+}
+.joke
+{
+    font-size: 2em; font-weight: 800; color: rgb(1, 32, 5); letter-spacing: 5px; margin-bottom: 100px;
+    margin-left: 100px; margin-right: 100px;
+}
+.btn
+{
+    padding: 20px 100px; margin-top: -20px; background-color: rgb(178, 207, 99); font-weight: bold;
+    font-size: 1.2em; border-radius: 20px; letter-spacing: 2px;
+}
+.btn:hover{background-color: rgb(203, 223, 86); cursor: pointer; font-size: 1em;}
